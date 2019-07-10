@@ -6,6 +6,7 @@ namespace lesson_08_enums_and_structs
     {
         static void Main(string[] args)
         {
+            //https://github.com/DaraOladapo/c-sharp-with-dotnet-core
             //enums
             Console.WriteLine("Kindly rate your banking experience where 1 is Very Dissatisfied and 5 is Very Satisfied");
             var customerRatingInput=int.Parse(Console.ReadLine());
