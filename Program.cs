@@ -6,7 +6,9 @@ namespace DataTypes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //constructor bears same name with he class and acts as a a method
+            int myInt = 24;
+            Console.WriteLine($"{myInt} is a datatype of {myInt.GetType()}");
         }
     }
 }
