@@ -7,6 +7,7 @@ namespace lesson_08_enums_and_structs
         static void Main(string[] args)
         {
             //https://github.com/DaraOladapo/c-sharp-with-dotnet-core
+            //bencisa@yahoo.com
             //enums
             Console.WriteLine("Kindly rate your banking experience where 1 is Very Dissatisfied and 5 is Very Satisfied");
             var customerRatingInput=int.Parse(Console.ReadLine());
@@ -58,11 +59,15 @@ namespace lesson_08_enums_and_structs
     }
    enum Rating
     {
-     VeryDissatisfied=1,
-     Dissatisfied,
-     Indifferent,
-    Satisfied,
-    VerySatisfied
+        VeryDissatisfied=1,
+
+        Dissatisfied,
+
+        Indifferent,
+
+        Satisfied,
+
+        VerySatisfied
     
     }
 
